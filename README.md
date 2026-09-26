@@ -1,14 +1,15 @@
 # NSP Webinar Pipeline
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hed1n07-glitch/nsp-webinar-pipeline/blob/main/NSP_Webinar_Pipeline_Colab.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/15XU3aBR49I6UHtokclyoXj2vs1Xqr8wp)
 
-Google Colab notebook: archive of Nature's Sunshine webinars on naturessunshine.ru (Vimeo embeds) → audio → Whisper transcript → markdown notes.
+Google Colab notebook: Nature's Sunshine webinar archive on naturessunshine.ru (Vimeo) → audio → Whisper → notes.
 
-## Open in Colab
+Direct Colab link: https://colab.research.google.com/drive/15XU3aBR49I6UHtokclyoXj2vs1Xqr8wp
 
-1. Click the badge above.
+## How to run
+
+1. Open the link (sign in with Google if asked).
 2. Runtime → Change runtime type → **T4 GPU**.
 3. Runtime → Run all.
-4. Optional: add Colab secret `OPENAI_API_KEY` for summaries.
-
-Start with `LIMIT = 1`.
+4. Optional Colab secret: `OPENAI_API_KEY`.
+5. Keep `LIMIT = 1` for the first run.
